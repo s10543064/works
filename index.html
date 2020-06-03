@@ -5,8 +5,35 @@
 	<title>Document</title>
 </head>
 <body>
-	<p>hello 20200527</p>
-
-	<a href="000.html" target="_blank" title="Wibibi 網頁設計教學百科">00</a>
+	<form action="/action_page.php">
+  		<label for="phone">you name:</label>
+  		<input type="tel" id="phone" name="phone" ><br><br>
+  		<label for="phone">you password:</label>
+  		<input type="tel" id="phone" name="phone" ><br><br>
+  		<label for="phone">you phone number:(0911-111-111)</label>
+  		<input type="tel" id="phone" name="phone" placeholder="123-450-678"
+  		pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br><br>
+  		<small>Format: 123-45-678</small><br><br>
+  		<label for="phone">textarea</label><br><br>
+  		<textarea style="width: 300px;height: 100px;"></textarea><br><br>
+		<select name="YourLocation">
+			<option value="aaa">科管系</option>
+			<option value="aaa">醫管系</option>
+			<option value="aaa">行館系</option>
+			<option value="aaa">護理系</option>
+			<option value="aaa">醫放系</option>
+		</select><br><br>
+		<form>please select your age<br>
+			<input type="radio" name="location" value="1"> 0~30<br>
+			<input type="radio" name="location" value="2"> 31~60<br>
+			<input type="radio" name="location" value="3"> 61~100<br>
+		</form>
+		<form>please select your age<br>
+			<input type="radio" name="location" value="1"> I have a bike<br>
+			<input type="radio" name="location" value="2"> I have a car<br>
+			<input type="radio" name="location" value="3"> I have a boat<br>
+		</form>
+  		<input type="submit">
+</form> 
 </body>
 </html>
